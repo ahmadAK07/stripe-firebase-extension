@@ -1,0 +1,201 @@
+*{font-size: 20px;}
+/* General container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* General button styling */
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Specific styles for LogIn button */
+  .btn-login {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Specific styles for LogOut button */
+  .btn-logout {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-logout:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05);
+  }
+  /* General container styling */
+.pricing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Wrapper for content */
+  .pricing-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .pricing-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Pricing section wrapper */
+  .pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* Outer card container */
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 421px;
+    height: 394px;
+    background-color: #d1e9ff;
+    border-radius: 14px;
+    margin: 2.5rem auto;
+    padding-top: 0.5rem;
+  }
+  
+  /* Inner card container */
+  .pricing-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 409px;
+    height: 382px;
+    background-color: #ffffff;
+    border: 1px solid #4b5563;
+    border-radius: 14px;
+    padding: 1rem;
+  }
+  
+  /* Pricing details */
+  .pricing-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  /* Header section */
+  .pricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Price text */
+  .price-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #175cd3;
+  }
+  
+  /* Toggle container */
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid #d1d5db;
+    border-radius: 23px;
+    padding: 0.25rem;
+  }
+  
+  /* Toggle buttons */
+  .toggle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 23px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-btn.active {
+    background-color: #d1e9ff;
+  }
+  
+  .toggle-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+  }
+  
+  .toggle-text.active {
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .discount-text {
+    color: #175cd3;
+    font-weight: 600;
+  }
+  
+  /* Action section */
+  .pricing-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  
+  /* Choose Plan Button */
+  .choose-plan-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349px;
+    height: 42px;
+    background-color: #175cd3;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choose-plan-btn:hover {
+    background-color: #154bb1;
+  }
+  
+  .choose-plan-text {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+    
